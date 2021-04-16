@@ -1,0 +1,132 @@
+#navigation {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
+  -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+  background-image: url('navbar.png');
+  color: #FFFFFF;
+}
+#navigation a {
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+#navigation a:hover {
+  color: grey;
+  text-decoration:none;
+
+}
+header:hover{
+  transform: scale(1.01);
+}
+
+header img{
+  height: 80px;
+
+}
+
+
+.studybg{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+  .book{
+    padding: 50px;
+    transition: transform .2s; 
+    width: 200px;
+    height: 110px;
+    margin-left: 67px;
+    margin-top: 320px;
+  }
+  
+.book:hover {
+  transform :scale(1.1);
+  }
+
+  .book p {
+       font-size: 20px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       margin-top: -30px;
+       margin-left: 15px;
+
+  }
+
+  .blue{
+    transition: transform .2s; 
+    width: 200px;
+    height: 110px;
+    margin-left: 64px;
+    margin-top: -190px;
+  }
+
+  .blue:hover {
+    transform :scale(1.1);
+   }
+
+   .blue p {
+       font-size: 20px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     
+      
+   }
+
+   .orange{
+    transition: transform .2s; 
+    width: 200px;
+    height: 110px;
+    margin-left: 203px;
+    margin-top: 10px;
+  }
+
+  .orange:hover {
+    transform :scale(1.1);
+   }
+
+   .orange p{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -45px;
+    margin-left: 8px;
+  
+   }
+
+
+
+
+.htmlcourse{
+
+  margin-top: -500px;
+  margin-left: 600px;
+  border:solid;
+  border-color:black;
+  border-width: 20px;
+  border-radius: 30px;
+}
+
+#email{
+    margin-left: 1507px;
+    margin-top: -25px;
+}
+
+#email:hover{
+    transform :scale(1.2);
+    
+}
+
+
